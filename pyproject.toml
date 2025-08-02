@@ -51,6 +51,10 @@ gurobi = ["gurobipy"]
 
 # Check script configuration:
 
+[tool.poetry.group.dev.dependencies]
+pytest-socket = "^0.7.0"
+pytest-randomly = "^3.16.0"
+
 [tool.ruff]
 line-length = 100
 lint.extend-select = ["I"]
